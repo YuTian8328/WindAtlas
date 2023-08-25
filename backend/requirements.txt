@@ -1,0 +1,6 @@
+fastapi==0.94.1
+numpy==1.24.2
+pandas==1.5.3
+python-multipart==0.0.5
+uvicorn==0.21.1
+windpowerlib==0.2.1

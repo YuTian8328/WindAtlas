@@ -1,0 +1,36 @@
+cd tiany4
+cd Public
+cd unix
+cd
+cd windows
+cd profile
+scp /Users/chenran/Desktop/grades_export_mycourses_2022-01-23T17_27_42.csv
+cd Documents
+cd Downloads
+nbgrader export
+scp /Users/chenran/Desktop/grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh /u/98/tiany4/data
+scp course/grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh/u/98/tiany4/data
+pwd
+cd ..
+cd data
+scp /Users/chenran/Desktop/grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh/u/98/tiany4/data
+scp /grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh/u/98/tiany4/data
+scp Documents/grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh/u/98/tiany4/data
+proxy
+scp grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh/u/98/tiany4/data
+scp ./grades_export_mycourses_2022-01-23T17_27_42.csv tiany4@kosh/u/98/tiany4/data
+/m/jhnas/jupyter/software/bin/username-to-email.py grades_export_mycourses_2022-01-23T17:27:42.csv
+/m/jhnas/jupyter/software/bin/username-to-email.py grades_export_mycourses_2022-01-23T17_27_42.csv
+head grades_export_mycourses_2022-01-23T17_27_42.csv
+/m/jhnas/jupyter/software/bin/username-to-email.py grades_export_mycourses_2022-01-23T17_27_42.csv > mycourses_usernames.csv
+head mycourses_usernames.csv
+/m/jhnas/jupyter/software/bin/username-to-email.py grades_2022-04-22.csv > grades_emails.csv
+ls
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t ed25519
+cat ~/.ssh/id_ed25519.pub
+ssh tiany4@junga.cs.aalto.fi
+ssh tiany4@fljung.cs.aalto.fi
+exit
+: 1673380280:0;code 
+: 1673380361:0;ssh tiany4@fljung.cs.aalto.fi
